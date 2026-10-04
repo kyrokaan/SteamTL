@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr" data-theme="dark">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Steam TL</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><img class="badge" src="icons/icon128.png" width="44" height="44" alt="" aria-hidden="true"><div class="brand"><h1>Steam TL</h1><p data-i18n="subtitle">USD fiyatlarının TL karşılığı.</p></div><div class="header-controls"><div id="language" class="language" role="group" aria-label="Dil"><button type="button" data-language="tr" aria-pressed="true" title="Türkçe">TR</button><button type="button" data-language="en" aria-pressed="false" title="İngilizce">EN</button></div><button id="theme" type="button" title="Açık temaya geç" aria-label="Açık temaya geç"><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"></path></svg></button></div></header>
+  <form id="settings">
+    <label class="switch"><span data-i18n="enabled">TL Gösterimini Etkinleştir</span><input id="enabled" type="checkbox"></label>
+    <fieldset id="mode" class="choice"><legend data-i18n="mode">Kur Seçimi</legend><div class="segments">
+      <label><input type="radio" name="mode" value="auto" checked><span data-i18n="auto">Otomatik</span></label>
+      <label><input type="radio" name="mode" value="manual"><span data-i18n="manual">Manuel</span></label>
+    </div></fieldset>
+    <div id="manual-section" hidden><label for="manual" data-i18n="manualLabel">1 USD kaç TL?</label><input id="manual" type="text" inputmode="decimal" placeholder="Örn. 40,25" autocomplete="off"></div>
+    <fieldset id="display" class="choice"><legend data-i18n="display">Fiyat Gösterimi</legend><div class="segments">
+      <label><input type="radio" name="display" value="replace" checked><span>TL</span></label>
+      <label><input type="radio" name="display" value="both"><span>USD + TL</span></label>
+    </div></fieldset>
+    <label class="switch decimals"><span data-i18n="decimals">Kuruşları Göster</span><input id="decimals" type="checkbox" checked></label>
+    <div class="rate"><strong id="rate">Kur yükleniyor…</strong><small id="rate-date" hidden></small><small id="date"></small><button id="refresh" type="button" data-i18n="refresh">Kuru Yenile</button></div>
+    <button type="submit" class="primary" data-i18n="save">Ayarları Kaydet</button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </form>
+  <footer><p data-i18n="footer">Tarayıcı açıkken kur, 6 saatte bir otomatik kontrol edilir. TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir.</p><div class="footer-links"><span id="version"></span><div class="reset-actions"><button id="cancel-reset" type="button" data-i18n="cancel" hidden>İptal</button><button id="reset" type="button" title="Ayarları sıfırla">Sıfırla</button></div></div></footer>
+  <script src="core.js"></script><script src="i18n.js"></script><script src="popup.js"></script>
+</body>
+</html>

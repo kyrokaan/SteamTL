@@ -1,0 +1,13 @@
+{
+  "name": "steam-tl-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable regression tests for Steam TL",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/core.test.cjs && node tests/verify.cjs && node tests/cart.cjs && node tests/incremental.cjs",
+    "test:unit": "node --test tests/core.test.cjs && node tests/verify.cjs --unit",
+    "test:browser": "node tests/verify.cjs --browser && node tests/cart.cjs && node tests/incremental.cjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
