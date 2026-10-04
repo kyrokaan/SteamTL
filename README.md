@@ -4,23 +4,19 @@
 
 <h1 align="center">SteamTL</h1>
 <p align="center">Steam’de USD fiyatlarının TL karşılığı.</p>
-<p align="center">
-  <a href="https://github.com/kyrokaan/SteamTL/releases/latest">İndir</a> ·
-  <a href="PRIVACY.md">Gizlilik</a> ·
-  <a href="https://github.com/kyrokaan/SteamTL/issues">Sorun bildir</a>
 </p>
-
-Steam mağazasındaki fiyatları ve cüzdan bakiyesini yaklaşık TL karşılığıyla gösteren tarayıcı eklentisi.
-
-- **TL veya USD + TL** fiyat gösterimi.
-- **Otomatik veya manuel kur.** ECB’nin günlük kuru, tarayıcı açıkken 6 saatte bir kontrol edilir.
-- **Mağaza, oyun sayfaları ve sepet** desteği.
-- **Türkçe / İngilizce**, açık / koyu tema ve kuruş gösterimi.
-- **Güncellemelerde ayarlar korunur.**
 
 <p align="center">
   <img src="docs/interface.png" width="340" alt="SteamTL Türkçe koyu tema ayar penceresi">
 </p>
+
+Steam mağazasındaki fiyatları ve cüzdan bakiyesini yaklaşık TL karşılığıyla gösteren sade tarayıcı eklentisi.
+
+- **TL veya USD + TL** fiyat gösterimi.
+- **Otomatik veya Manuel kur.** ECB’nin günlük kuru, tarayıcı açıkken 6 saatte bir kontrol edilir.
+- **Mağaza, Oyun sayfaları ve Sepet** desteği.
+- **Türkçe / İngilizce**, Açık / Koyu tema ve Kuruş gösterimi.
+- **Güncellemelerde ayarlar korunur.**
 
 ### Kurulum
 
@@ -33,18 +29,8 @@ Chrome ve Chromium tabanlı tarayıcılar için hazırlanmıştır. Mağazaya y�
 
 ### Gizlilik
 
-Fiyatlar ve cüzdan bakiyesi saklanmaz veya dışarı gönderilmez. Kart ve parola alanları okunmaz. Ayarlar ve kur bilgisi yalnızca tarayıcıda saklanır. [Gizlilik açıklaması →](PRIVACY.md)
+Fiyatlar ve Cüzdan bakiyesi saklanmaz veya dışarı gönderilmez. Kart ve Parola alanları okunmaz. Ayarlar ve Kur bilgisi yalnızca tarayıcıda saklanır.
 
-TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir. SteamTL, Valve veya Steam ile bağlantılı değildir.
+TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir. SteamTL, 
 
-### Testler
-
-Node.js 22 veya üzeriyle:
-
-```sh
-npm ci
-npx playwright install chromium
-npm test
-```
-
-Fiyat ayrıştırma, kur hesaplama, ayarlar, arayüz ve sepet dönüşümleri test edilir. GitHub Actions her değişiklikte testleri çalıştırır.
+Valve veya Steam ile bağlantılı değildir.
