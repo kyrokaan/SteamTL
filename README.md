@@ -4,11 +4,17 @@
 
 <h1 align="center">SteamTL</h1>
 <p align="center">Steam’de USD fiyatlarının TL karşılığı.</p>
-</p>
 
-<p align="center">
-  <img src="docs/interface.png" width="340" alt="SteamTL Türkçe koyu tema ayar penceresi">
-</p>
+<table>
+  <tr>
+    <td width="30%" align="center" valign="middle">
+      <a href="docs/interface.png"><img src="docs/interface.png" width="240" alt="SteamTL ayar penceresi"></a>
+    </td>
+    <td width="70%" align="center" valign="middle">
+      <a href="docs/steam-tl-prices.png"><img src="docs/steam-tl-prices.png" width="560" alt="Steam mağazasında TL fiyat gösterimi"></a>
+    </td>
+  </tr>
+</table>
 
 Steam mağazasındaki fiyatları ve cüzdan bakiyesini yaklaşık TL karşılığıyla gösteren tarayıcı eklentisi.
 
