@@ -10,13 +10,15 @@
   <img src="docs/interface.png" width="340" alt="SteamTL Türkçe koyu tema ayar penceresi">
 </p>
 
-Steam mağazasındaki fiyatları ve cüzdan bakiyesini yaklaşık TL karşılığıyla gösteren sade tarayıcı eklentisi.
+Steam mağazasındaki fiyatları ve cüzdan bakiyesini yaklaşık TL karşılığıyla gösteren tarayıcı eklentisi.
 
-TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir. SteamTL, 
+TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir.
 
 Chrome ve Chromium tabanlı tarayıcılar için hazırlanmıştır.
 
 ---
+
+### Özellikler
 
 - **TL veya USD + TL** fiyat gösterimi.
 - **Otomatik veya Manuel kur.** ECB’nin günlük kuru, tarayıcı açıkken 6 saatte bir kontrol edilir.
@@ -31,7 +33,6 @@ Chrome ve Chromium tabanlı tarayıcılar için hazırlanmıştır.
 3. **Paketlenmemiş öğe yükle** ile `steam-tl` klasörünü seç.
 4. Açık Steam sayfasını yenile.
 
-Chrome ve Chromium tabanlı tarayıcılar için hazırlanmıştır.
 ### Gizlilik
 
 SteamTL: Fiyatları ve Cüzdan bakiyesini yalnızca TL karşılığını göstermek için tarayıcı içinde işler; Saklamaz veya Dışarı göndermez. Kart ve Parola alanları okunmaz. Ayarlar ve Kur bilgisi yalnızca tarayıcıda saklanır. Otomatik Kur için ECB’ye bağlantı kurulur. Analitik ve Takip kullanılmaz.
