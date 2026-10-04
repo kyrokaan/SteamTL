@@ -29,7 +29,7 @@ Chrome ve Chromium tabanlı tarayıcılar için hazırlanmıştır. Mağazaya y�
 
 ### Gizlilik
 
-Fiyatlar ve Cüzdan bakiyesi saklanmaz veya dışarı gönderilmez. Kart ve Parola alanları okunmaz. Ayarlar ve Kur bilgisi yalnızca tarayıcıda saklanır.
+SteamTL: Fiyatları ve Cüzdan bakiyesini yalnızca TL karşılığını göstermek için tarayıcı içinde işler; Saklamaz veya Dışarı göndermez. Kart ve Parola alanları okunmaz. Ayarlar ve Kur bilgisi yalnızca tarayıcıda saklanır. Otomatik Kur için ECB’ye bağlantı kurulur. Analitik ve Takip kullanılmaz.
 
 TL fiyatı yaklaşık değerdir. Ödeme USD olarak kalır; banka kuru farklı olabilir. SteamTL, 
 
